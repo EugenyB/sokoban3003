@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="365.0" y="547.0">sokoban.LevelManager</node>
+    <node x="0.0" y="547.0">sokoban.model.GameField</node>
+    <node x="0.0" y="437.0">sokoban.model.Player</node>
+    <node x="196.00000000000003" y="437.0">sokoban.model.Target</node>
+    <node x="0.0" y="0.0">sokoban.model.Level</node>
+    <node x="397.0" y="437.0">sokoban.model.Wall</node>
+    <node x="570.0" y="437.0">sokoban.model.Box</node>
+    <node x="229.50000000000003" y="322.0">sokoban.model.SokobanObject</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="sokoban.model.Target" target="sokoban.model.SokobanObject">
+      <point x="0.0" y="-32.5" />
+      <point x="286.5" y="412.0" />
+      <point x="342.375" y="412.0" />
+      <point x="-37.625" y="32.5" />
+    </edge>
+    <edge source="sokoban.model.Wall" target="sokoban.model.SokobanObject">
+      <point x="0.0" y="-32.5" />
+      <point x="473.5" y="412.0" />
+      <point x="417.625" y="412.0" />
+      <point x="37.625" y="32.5" />
+    </edge>
+    <edge source="sokoban.model.Box" target="sokoban.model.SokobanObject">
+      <point x="0.0" y="-32.5" />
+      <point x="642.5" y="412.0" />
+      <point x="492.875" y="412.0" />
+      <point x="112.875" y="32.5" />
+    </edge>
+    <edge source="sokoban.model.Player" target="sokoban.model.SokobanObject">
+      <point x="-2.8421709430404007E-14" y="-32.5" />
+      <point x="88.0" y="412.0" />
+      <point x="267.125" y="412.0" />
+      <point x="-112.875" y="32.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="357.5" y="337.5" />
+  <SelectedNodes>
+    <node>sokoban.LevelManager</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Properties</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
