@@ -3,45 +3,74 @@
   <ID>JAVA</ID>
   <OriginalElement />
   <nodes>
-    <node x="365.0" y="547.0">sokoban.LevelManager</node>
-    <node x="0.0" y="547.0">sokoban.model.GameField</node>
-    <node x="0.0" y="437.0">sokoban.model.Player</node>
-    <node x="196.00000000000003" y="437.0">sokoban.model.Target</node>
-    <node x="0.0" y="0.0">sokoban.model.Level</node>
-    <node x="397.0" y="437.0">sokoban.model.Wall</node>
-    <node x="570.0" y="437.0">sokoban.model.Box</node>
-    <node x="229.50000000000003" y="322.0">sokoban.model.SokobanObject</node>
+    <node x="124.0" y="369.0">sokoban.model.GameField</node>
+    <node x="221.0" y="87.0">sokoban.model.Target</node>
+    <node x="347.0" y="87.0">sokoban.model.Player</node>
+    <node x="495.0" y="0.0">sokoban.controller.LevelManager</node>
+    <node x="0.0" y="87.0">sokoban.model.Wall</node>
+    <node x="99.0" y="174.0">sokoban.model.Level</node>
+    <node x="113.0" y="87.0">sokoban.model.Box</node>
+    <node x="132.0" y="0.0">sokoban.model.SokobanObject</node>
+    <node x="537.0" y="304.0">sokoban.view.GameView</node>
   </nodes>
   <notes />
   <edges>
     <edge source="sokoban.model.Target" target="sokoban.model.SokobanObject">
-      <point x="0.0" y="-32.5" />
-      <point x="286.5" y="412.0" />
-      <point x="342.375" y="412.0" />
-      <point x="-37.625" y="32.5" />
+      <point x="0.0" y="-18.5" />
+      <point x="274.0" y="67.0" />
+      <point x="235.125" y="67.0" />
+      <point x="20.625" y="18.5" />
     </edge>
     <edge source="sokoban.model.Wall" target="sokoban.model.SokobanObject">
-      <point x="0.0" y="-32.5" />
-      <point x="473.5" y="412.0" />
-      <point x="417.625" y="412.0" />
-      <point x="37.625" y="32.5" />
+      <point x="0.0" y="-18.5" />
+      <point x="46.5" y="57.0" />
+      <point x="152.625" y="57.0" />
+      <point x="-61.875" y="18.5" />
     </edge>
     <edge source="sokoban.model.Box" target="sokoban.model.SokobanObject">
-      <point x="0.0" y="-32.5" />
-      <point x="642.5" y="412.0" />
-      <point x="492.875" y="412.0" />
-      <point x="112.875" y="32.5" />
+      <point x="0.0" y="-18.5" />
+      <point x="157.0" y="67.0" />
+      <point x="193.875" y="67.0" />
+      <point x="-20.625" y="18.5" />
+    </edge>
+    <edge source="sokoban.model.Level" target="sokoban.model.Player">
+      <point x="87.375" y="-72.5" />
+      <point x="302.875" y="149.0" />
+      <point x="398.5" y="149.0" />
+      <point x="0.0" y="18.5" />
+    </edge>
+    <edge source="sokoban.model.Level" target="sokoban.model.Wall">
+      <point x="-87.375" y="-72.5" />
+      <point x="128.125" y="149.0" />
+      <point x="46.5" y="149.0" />
+      <point x="0.0" y="18.5" />
+    </edge>
+    <edge source="sokoban.model.GameField" target="sokoban.model.Level">
+      <point x="0.0" y="-32.0" />
+      <point x="0.0" y="72.5" />
+    </edge>
+    <edge source="sokoban.model.Level" target="sokoban.model.Box">
+      <point x="-29.125" y="-72.5" />
+      <point x="186.375" y="149.0" />
+      <point x="157.0" y="149.0" />
+      <point x="0.0" y="18.5" />
+    </edge>
+    <edge source="sokoban.model.Level" target="sokoban.model.Target">
+      <point x="29.125" y="-72.5" />
+      <point x="244.625" y="149.0" />
+      <point x="274.0" y="149.0" />
+      <point x="0.0" y="18.5" />
     </edge>
     <edge source="sokoban.model.Player" target="sokoban.model.SokobanObject">
-      <point x="-2.8421709430404007E-14" y="-32.5" />
-      <point x="88.0" y="412.0" />
-      <point x="267.125" y="412.0" />
-      <point x="-112.875" y="32.5" />
+      <point x="0.0" y="-18.5" />
+      <point x="398.5" y="57.0" />
+      <point x="276.375" y="57.0" />
+      <point x="61.875" y="18.5" />
     </edge>
   </edges>
-  <settings layout="Hierarchic Group" zoom="1.0" x="357.5" y="337.5" />
+  <settings layout="Hierarchic Group" zoom="1.0" x="382.0" y="257.5" />
   <SelectedNodes>
-    <node>sokoban.LevelManager</node>
+    <node>sokoban.view.GameView</node>
   </SelectedNodes>
   <Categories>
     <Category>Fields</Category>
